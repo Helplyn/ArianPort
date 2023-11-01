@@ -1,0 +1,59 @@
+.reproductor {
+    position: relative; /* Agrega esta línea */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%; /* Establece el ancho al 100% */
+    max-width: 100%; /* Asegura que no exceda el ancho de la pantalla */
+    background-color: transparent; /* Establece el fondo del reproductor como transparente */
+}
+
+
+@media (max-width: 768px) {
+    .reproductor {
+        height: 80px; /* Ajusta la altura para tamaños de pantalla más pequeños */
+    }
+}
+
+.caratula {
+    flex: 1;
+    max-width: 100px;
+}
+
+.caratula img {
+    max-width: 200%;
+    height: auto;
+}
+
+.controles-audio {
+    flex: 2;
+}
+
+audio {
+    width: 100%;
+    background-color: transparent; /* Establece el fondo del reproductor como transparente */
+    border: none;
+}
+
+/* Estilo para los controles de audio */
+audio::-webkit-media-controls {
+    background-color: transparent; /* Establece el fondo de los controles como transparente */
+    border: none;
+    color: #fff; /* Establece el color del texto en blanco */
+}
+
+/* Estilo para el fondo del reproductor en los controles */
+audio::-webkit-media-controls-panel {
+    background-color: transparent; /* Establece el fondo de los controles como transparente */
+}
+
+.imagen-esquina {
+    position: absolute;
+    top: 0; /* Ajusta la posición vertical según sea necesario */
+    right: 0; /* Coloca la imagen en la esquina superior derecha */
+    max-width: 200%;
+    height: auto;
+}
+
+
