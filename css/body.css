@@ -5,7 +5,6 @@ body {
     background-attachment: fixed; /* Fija la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     color: #000000; /* Color de texto blanco */
-    
 }
 
 .contenedor-imagenes {
@@ -20,7 +19,6 @@ body {
     height: auto;
 }
 
-
 .contenedor-gif {
     float: left; /* Alinea el contenedor del GIF a la izquierda */
     max-width: 50%; /* Opcional: limita el ancho del contenedor del GIF */
@@ -29,4 +27,15 @@ body {
 .contenedor-gif img {
     width: 100%; /* Hace que el GIF sea responsivo */
     height: auto;
+}
+
+/* Alinea los contenedores de imágenes al centro en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .contenedor-imagenes,
+    .contenedor-gif {
+        float: none; /* Elimina el flotante para centrar los contenedores */
+        max-width: 100%; /* Ocupa todo el ancho disponible */
+        margin: 0 auto; /* Centra horizontalmente */
+        margin-top: 10%; /* Ajusta el margen superior según lo necesites */
+    }
 }
