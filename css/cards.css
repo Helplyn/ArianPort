@@ -1,0 +1,18 @@
+.boton {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    background-color: #3498db; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease-in-out; /* Efecto de transición en el color de fondo */
+
+    /* Efecto de sombra al pasar sobre el botón */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Efecto de cambio de color al pasar sobre el botón */
+.boton:hover {
+    background-color: #2980b9;
+}

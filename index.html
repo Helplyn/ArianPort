@@ -1,44 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Arian</title>
-    <link rel="stylesheet" type="text/css" href="css/body.css">
-    <link rel="stylesheet" type="text/css" href="css/song.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/song.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Agrega el nuevo archivo de estilos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-
+</head>
+<body>
+    <!-- portada -->
     <nav class="navbar" data-bs-theme="dark">
-      <div class="reproductor">
-        <div class="caratula" id="caratula">
-            <img src="./img/logo.gif" alt="Carátula del álbum">
+        <div class="reproductor">
+            <div class="caratula" id="caratula">
+                <img src="./img/logo.gif" alt="Carátula del álbum">
+            </div>
+            <div class="controles-audio">
+                <audio id="reproductor-audio" controls="controls" style="display: none;">
+                    <source src="./assets/song_font.mp3" type="audio/mpeg">
+                    <source src="./assets/song_font.ogg" type="audio/ogg">
+                    Tu navegador no admite la reproducción de audio.
+                </audio>
+            </div>
         </div>
-        <div class="controles-audio">
-            <audio id="reproductor-audio" controls="controls" style="display: none;">
-                <source src="./assets/song_font.mp3" type="audio/mpeg">
-                <source src="./assets/song_font.ogg" type="audio/ogg">
-                Tu navegador no admite la reproducción de audio.
-            </audio>
-        </div>
-      </div>
     </nav>
-  
 
-    
+<div>
     <div class="contenedor-imagenes">
-        <img src="./img/arian.png" alt="Imagen 1">
-    </div>
-    
-    <div class="contenedor-gif">
-        <img src="./img/astro.gif" alt="GIF Astro">
-    </div>
-    
-
+      <img src="./img/arian.png" alt="Imagen 1">
+  </div>
+  
+  <div class="contenedor-gif">
+      <img src="./img/astro.gif" alt="GIF Astro">
+  </div>
+</div>
+  
+<div>
+  <div class="boton-container">
+      <button class="boton">Botón 1</button>
+      <button class="boton">Botón 2</button>
+      <button class="boton">Botón 3</button>
+  </div>
+</div>
 
     <script src="./js/song.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
