@@ -7,12 +7,6 @@ body {
     color: #ffffff;
 }
 
-.contenedor-principal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .contenedor-imagenes {
     float: right; /* Alinea el contenedor de las imágenes a la izquierda */
     width: 48%; /* Ajusta el ancho para dejar espacio entre las imágenes */
@@ -47,7 +41,6 @@ body {
 @media (max-width: 768px) {
     .contenedor-imagenes,
     .contenedor-gif {
-        float: ; /* Elimina el flotante para centrar los contenedores */
         width: 100%;
         margin: 0 auto;
         margin-top: 10%;
