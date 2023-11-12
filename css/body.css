@@ -28,6 +28,17 @@ body {
     height: auto;
 }
 
+.contenedor-skills {
+    width: 45%; /* Ajusta el ancho del contenedor del GIF */
+    max-width: 50%;
+    margin-bottom: 2%; /* Agrego un margen inferior para ajustar la separación */
+}
+
+.contenedor-skills img {
+    width: 100%;
+    height: auto;
+}
+
 .boton-container {
     clear: both;
     display: flex;

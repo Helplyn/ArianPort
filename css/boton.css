@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 20%;
+    margin-top: 20px;
 }
 
 .boton {
@@ -18,17 +18,24 @@
     box-shadow: -1px 1px 18px 13px rgba(255,255,255,0.21);
     -webkit-box-shadow: -1px 1px 18px 13px rgba(255,255,255,0.21);
     -moz-box-shadow: -1px 1px 18px 13px rgba(255,255,255,0.21);
-    margin: 2.5% 2.5% 2.5% 2.5%;
+    margin-bottom: 20px; /* Ajusta según el espacio deseado entre filas */
+    width: calc(33.33% - 20px); /* Ajusta según el número de columnas deseadas y el espacio entre botones */
 }
 
 .boton:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /* Media query para hacer los botones más pequeños en pantallas más pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 100%) {
     .boton {
+        width: calc(50% - 20px); /* Ajusta según el número de columnas deseadas y el espacio entre botones */
         padding: 8px 16px; /* Ajusta el tamaño de los botones en pantallas más pequeñas */
-        margin: 5% 2.5% 5% 2.5%; /* Ajusta los márgenes en pantallas más pequeñas */
+        margin: 10px 0; /* Ajusta el espacio entre filas en pantallas más pequeñas */
     }
+}
+
+.boton img {
+    width: 40%;
+    height: auto;
 }
