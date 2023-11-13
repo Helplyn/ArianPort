@@ -9,15 +9,14 @@
 
 .boton {
     padding: 10px 20px;
-    font-size: 16px;
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    border-radius: 10%; /* Cambia el valor para hacer el botón redondo */
+    border-radius: 10px; /* Ajusta el valor para hacer el botón cuadrado */
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
-    box-shadow: -1px 1px 18px 13px rgba(255,255,255,0.21);
-    -webkit-box-shadow: -1px 1px 18px 13px rgba(255,255,255,0.21);
-    -moz-box-shadow: -1px 1px 18px 13px rgba(255,255,255,0.21);
+    box-shadow: -1px 1px 18px 13px rgba(255, 255, 255, 0.21);
+    -webkit-box-shadow: -1px 1px 18px 13px rgba(255, 255, 255, 0.21);
+    -moz-box-shadow: -1px 1px 18px 13px rgba(255, 255, 255, 0.21);
     margin-bottom: 20px; /* Ajusta según el espacio deseado entre filas */
     width: calc(33.33% - 20px); /* Ajusta según el número de columnas deseadas y el espacio entre botones */
 }
