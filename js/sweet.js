@@ -8,10 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
             imageHeight: null,
             showConfirmButton: false,
             background: "#000000",
-            backdrop: `
-              rgb(0, 0, 0, 0.5)
-            `,
-          });                            
+            backdrop: "rgba(0, 0, 0, 0.5)",
+            heightAuto: false, // Deshabilitar ajuste automático de altura
+            customClass: {
+              popup: 'my-custom-popup-class',
+            },
+          });                                           
     });
 });
 document.addEventListener("DOMContentLoaded", function () {
@@ -24,9 +26,11 @@ document.addEventListener("DOMContentLoaded", function () {
             imageHeight: null,
             showConfirmButton: false,
             background: "#000000",
-            backdrop: `
-              rgb(0, 0, 0, 0.5)
-            `,
+            backdrop: "rgba(0, 0, 0, 0.5)",
+            heightAuto: false, // Deshabilitar ajuste automático de altura
+            customClass: {
+              popup: 'my-custom-popup-class',
+            },
           });                            
     });
 });
@@ -40,9 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
             imageHeight: null,
             showConfirmButton: false,
             background: "#000000",
-            backdrop: `
-              rgb(0, 0, 0, 0.5)
-            `,
+            backdrop: "rgba(0, 0, 0, 0.5)",
+            heightAuto: false, // Deshabilitar ajuste automático de altura
+            customClass: {
+              popup: 'my-custom-popup-class',
+            },
           });                            
     });
 });
@@ -56,9 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
             imageHeight: null,
             showConfirmButton: false,
             background: "#000000",
-            backdrop: `
-              rgb(0, 0, 0, 0.5)
-            `,
+            backdrop: "rgba(0, 0, 0, 0.5)",
+            heightAuto: false, // Deshabilitar ajuste automático de altura
+            customClass: {
+              popup: 'my-custom-popup-class',
+            },
           });                            
     });
 });
@@ -72,9 +80,11 @@ document.addEventListener("DOMContentLoaded", function () {
             imageHeight: null,
             showConfirmButton: false,
             background: "#000000",
-            backdrop: `
-              rgb(0, 0, 0, 0.5)
-            `,
+            backdrop: "rgba(0, 0, 0, 0.5)",
+            heightAuto: false, // Deshabilitar ajuste automático de altura
+            customClass: {
+              popup: 'my-custom-popup-class',
+            },
           });                            
     });
 });
@@ -88,9 +98,11 @@ document.addEventListener("DOMContentLoaded", function () {
             imageHeight: null,
             showConfirmButton: false,
             background: "#000000",
-            backdrop: `
-              rgb(0, 0, 0, 0.5)
-            `,
+            backdrop: "rgba(0, 0, 0, 0.5)",
+            heightAuto: false, // Deshabilitar ajuste automático de altura
+            customClass: {
+              popup: 'my-custom-popup-class',
+            },
           });                            
     });
 });
